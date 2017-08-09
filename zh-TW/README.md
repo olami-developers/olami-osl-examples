@@ -8,5 +8,5 @@ OLAMI website and documentation: [http://olami.ai](http://olami.ai)
 
 # 繁體版範例
 
-- OSL 經典案例: [Classic-Case-Study](Classic-Case-Study)
+- OSL 經典案例：[Classic-Case-Study](Classic-Case-Study)
 
