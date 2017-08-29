@@ -84,7 +84,7 @@
 //*A:歐拉蜜和大家一起為中華隊加油
 //*A:<taiwanhome>就是我的主場
 //*A:你的夢想，算我歐拉蜜一份
-<taipeiuniversiade>:<thistime(<number>,<time>)>[<biaodian>]<manpronoun> [一起]回<taiwanhome>比賽;
+<taipeiuniversiade>:<thistime(<number>,<time>)>[<biaodian>]<manpronoun>[一起]回<taiwanhome>比賽;
 //*C:做人如果沒有夢想那跟鹹魚有什麼分別
 //*A:可是我天生就是想當<who_slot1>耶呵呵
 //*A:你知道要當<who_slot1>這種東西很講究天分的
