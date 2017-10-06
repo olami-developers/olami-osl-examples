@@ -1,16 +1,17 @@
 #PowerGrammar 1.0;
-!slot <number:number(1|3)>;
-!slot <單字動詞1:ext(1|1)>;
-!slot <who_slot1:ext(1|5)>;
 !slot <description:ext(1|4)>;
 !slot <number1:number(1|2)>;
 !slot <number2:number(1|2)>;
-!slot <taiwanhome:internal(1|2)>;
 !slot <body:internal(1|3)>;
-!slot <稱謂:internal(1|3)>;
 !slot <單字動詞2:ext(1|1)>;
 !slot <food:internal(2|2)>;
 !slot <haweioneword:ext(1|1)>;
+!slot <number:number(1|3)>;
+!slot <單字動詞1:ext(1|1)>;
+!slot <who_slot1:ext(1|5)>;
+!slot <taiwanhome:internal(1|2)>;
+!slot <稱謂:internal(1|3)>;
+!slot <stuff:ext(1|5)>;
 !intention <示範>;
 
 <示範>:<阿嶽真的很嚴格>|
@@ -24,6 +25,7 @@
     <台灣我的主場>|
     <測試用的你好>|
     <娘子快跟牛魔王出來看上帝>|
+    <穿梭染布裡>|
     <taipeiuniversiade>|
     <做人如果沒有夢想那跟鹹魚有什麼分別>|
     <用不用這麼認真啊神經病>|
@@ -64,6 +66,7 @@
 <reallyornot>:(假|真)的[是]|真[是];
 <food>:薯條|布丁|麵包|餅乾;
 <with>:跟|和|與;
+<frontyuqi>:哈|嗯|啊|噢|嘻|哼|呀|咦;
 <time>:日|月|天|年;
 <taiwanhome>:(台|臺)灣|(台|臺)北|家;
 //All templates
@@ -128,6 +131,12 @@
 //*A:不用看啦，因為<稱謂>就是我的上帝呀！
 <娘子快跟牛魔王出來看上帝>:(<wife><{稱謂=老公}>|<husband><{稱謂=老婆}>)
 [<biaodian>][<quickly>]<with>牛魔王出來看上帝[<endyuqi>];
+//*C:哈哈哈我穿梭在染布裡
+//*A:你是不是在模仿陳意涵
+//*A:小心跌倒
+//*A:我看了你都尷尬
+//*A:我也穿梭在<stuff>裡呢哈哈
+<穿梭染布裡>:<frontyuqi>+<me>[正](穿梭|穿越|穿行)(在|於)(染布<{stuff=染布}>|宿舍<{stuff=宿舍}>|捷運<{stuff=捷運}>|王者峽谷<{stuff=王者峽谷}>)[裡[面]][<endyuqi>][<frontyuqi>+];
 //*C:這次，我們回家比賽
 //*A:歐拉蜜和大家一起為中華隊加油
 //*A:<taiwanhome>就是我的主場
