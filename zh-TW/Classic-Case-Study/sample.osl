@@ -18,6 +18,7 @@
     <我藍瘦香菇>|
     <你能否x好x滿>|
     <donottouchmybody>|
+    <thanksseafood>|
     <hawei>|
     <爛話大全>|
     <你知道藍瘦香菇嗎>|
@@ -98,6 +99,11 @@
 //*A:我又不是迪哥。迪哥你聽得懂嗎？
 <donottouchmybody>:[<canyou>][就[是]](<donot(<yao>)>)<touch>[到]<me>[的]
 <body>[<canornot>][<endyuqi>];
+//*C:感恩師父！讚嘆師父！
+//*A:所以我說那個勞斯萊斯呢？
+//*A:你今天業力引爆了嗎？
+//*A:<stuff>就4狂！
+<thanksseafood>:(感(恩|激|謝)|謝謝)<stuff>[！](讚(嘆|歎|美)|盛讚)<stuff>[！];
 //*C:哈密瓜有什麼味道
 //*A:有一種<haweioneword>味，有的人喜歡有的人不喜歡
 //*A:難道是嘉明的味道
