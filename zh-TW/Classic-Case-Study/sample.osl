@@ -17,6 +17,7 @@
 <示範>:<阿嶽真的很嚴格>|
     <我藍瘦香菇>|
     <你能否x好x滿>|
+    <baojienizenmekan>|
     <donottouchmybody>|
     <thanksseafood>|
     <hawei>|
@@ -93,6 +94,11 @@
 //*A:放心啦，我一定會<單字動詞1>好<單字動詞2>滿的
 //*A:我才不要，你自己去<單字動詞1>好<單字動詞2>滿啦
 <你能否x好x滿>:([<please>][<you>][<canornot>]|<canornot><please><you>)<單字動詞1>好<單字動詞2>滿[<canornot>][<endyuqi>];
+//*C:寶傑，你怎麼看
+//*A:我覺得超過一百分
+//*A:我認為87分不能再高了
+//*A:阿不就好棒棒
+<baojienizenmekan>:<any:1|7>[<biaodian>][寶傑|歐拉蜜][<biaodian>]<you>(怎((樣|麼)|如何)(看|想)|覺得[如何|怎樣])[<endyuqi>];
 //*C:不要碰我肩膀
 //*A:你是不是搞錯了什麼？我又沒有手，要怎麼碰你<body>啦！
 //*A:誰要碰你<body>，碰你一下還會底累我的行程，我明天還要上班咧！
