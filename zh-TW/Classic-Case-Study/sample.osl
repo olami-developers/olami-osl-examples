@@ -1,12 +1,12 @@
 #PowerGrammar 1.0;
-!slot <description:ext(1|4)>;
+!slot <description:ext(1|5)>;
 !slot <number1:number(1|2)>;
 !slot <number2:number(1|2)>;
 !slot <body:internal(1|3)>;
-!slot <單字動詞2:ext(1|1)>;
 !slot <food:internal(2|2)>;
+!slot <單字動詞2:ext(1|1)>;
 !slot <haweioneword:ext(1|1)>;
-!slot <number:number(1|3)>;
+!slot <number:number(1|5)>;
 !slot <單字動詞1:ext(1|1)>;
 !slot <who_slot1:ext(1|5)>;
 !slot <taiwanhome:internal(1|2)>;
@@ -15,11 +15,12 @@
 !intention <示範>;
 
 <示範>:<阿嶽真的很嚴格>|
-    <我藍瘦香菇>|
     <你能否x好x滿>|
+    <我藍瘦香菇>|
     <baojienizenmekan>|
     <donottouchmybody>|
     <thanksseafood>|
+    <shayancat>|
     <hawei>|
     <爛話大全>|
     <你知道藍瘦香菇嗎>|
@@ -37,36 +38,37 @@
 <quickly>:快[點]|趕快|立刻|馬上|立馬|立即|即刻;
 <feel>:覺得|感到|感覺;
 <husband>:老公|丈夫|相公|先生;
-<body>:肩[膀]|手[臂|指|掌|心|肘]|屁股|臀[部]|臉[頰|蛋]|頭[頂|部]|頭髮|胸[部|膛|口]|脖子|頸部|背[脊]|耳[朵]|下巴|[大|小]腿|腳|眼[睛]|嘴[巴]|鼻[子]|額頭|肚[子]|腹部;
 <hope>:(夢|理)想|希望|目標;
+<body>:肩[膀]|手[臂|指|掌|心|肘]|屁股|臀[部]|臉[頰|蛋]|頭[頂|部]|頭髮|胸[部|膛|口]|脖子|頸部|背[脊]|耳[朵]|下巴|[大|小]腿|腳|眼[睛]|嘴[巴]|鼻[子]|額頭|肚[子]|腹部;
 <olami>:olami|歐拉蜜|你;
 <canornot>:可[不可]以|能[不能][夠]|行[不行]|好[不好]|(能|可)否;
 <me>:我|俺|人家;
 <if>:(如果|萬一|假(如|設|使)|要是)[說];
 <you>:你|您|妳;
-<need>:需[要]|用|要;
 <like>:喜歡|喜愛;
-<wife>:老婆|太太|娘子|妻子;
+<need>:需[要]|用|要;
 <藍瘦香菇>:(藍|男|難)(瘦|受)(香菇|想哭);
+<wife>:老婆|太太|娘子|妻子;
+<facepalm>:傻眼貓咪<{description=是新品種的貓}>|哭哭饅頭<{description=是新口味的饅頭}>|無言薯條<{description=好吃}>|昏倒可樂<{description=喝了會昏倒}>|(生|森)氣(企鵝|可樂)<{description=是有這麼森七七}>|呵呵雞排<{description=吃了會一直呵呵呵}>|白眼菊花<{description=是一種花}>;
 <touch>:[觸]碰|碰觸|[撫|觸]摸|拍[打]|打;
 <please>:請|拜託|麻煩|勞煩|勞駕;
 <manpronoun>:你|我|他|她|他們|她們|我們|你們|妳們|妳;
 <canyou>:[<please>]<you>[<canornot>]|<canornot>[<please><you>]|<please>;
 <know>:知[道]|了[解];
-<endyuqi>:啦|吧|呢|嗎|啊|阿|呀|喔|噢|哇|唷|呦|咧|哩|嚕|嘍|囉|了;
+<endyuqi>:啦|吧|呢|嗎|啊|阿|呀|喔|噢|哇|唷|呦|咧|哩|嚕|嘍|囉|了|耶|欸|嘿;
 <nonsense>:廢話|幹話|屁話|爛話|垃圾話|鬼扯[話];
 <what1>:(甚|什)麼|怎樣|[如]何;
 <what2>:是<what1>[意思]|的意思[是<what1>];
-<biaodian>:，|。|、|！|？|；|：;
 <haweifood>:香蕉<{haweioneword=香}>|哈密瓜<{haweioneword=哈}>|荔枝<{haweioneword=枝}>|草莓<{haweioneword=莓}>|漢堡<{haweioneword=漢}>|滷肉飯<{haweioneword=滷}>;
+<biaodian>:，|。|、|！|？|；|：;
 <saying>:聽|聽說;
 <so>:(這|那)(麼|樣)|如此|這般;
 <considers>:認[為]|覺[得]|感覺;
 <idiot>:(笨|蠢)[蛋]|神經[病]|白目|白(癡|痴)|北七|瘋子;
 <yao>:要|行|准|可[以]|能[夠];
 <differ>:(分|區|差)別|不(一樣|同)|差;
-<reallyornot>:(假|真)的[是]|真[是];
 <food>:薯條|布丁|麵包|餅乾;
+<reallyornot>:(假|真)的[是]|真[是]|實在[是];
 <with>:跟|和|與;
 <frontyuqi>:哈|嗯|啊|噢|嘻|哼|呀|咦;
 <time>:日|月|天|年;
@@ -85,15 +87,15 @@
 //*A:<who_slot1>真的比我想像中嚴格
 //*A:你有點兒情緒失控
 <阿嶽真的很嚴格>:[<manpronoun>][<疊式1(<considers>)>]<who_slot1>[<reallyornot>+][<very>+]嚴(格|厲|峻)[了][<endyuqi>];
-//*C:我藍瘦香菇
-//*A:我也覺得藍瘦香菇
-<我藍瘦香菇>:[<manpronoun>][<feel>][<very>]<藍瘦香菇>[<endyuqi>];
 //*C:請你睡好睡滿
-//*C:請睡好睡滿
 //*C:吃好喝滿
+//*C:請睡好睡滿
 //*A:放心啦，我一定會<單字動詞1>好<單字動詞2>滿的
 //*A:我才不要，你自己去<單字動詞1>好<單字動詞2>滿啦
 <你能否x好x滿>:([<please>][<you>][<canornot>]|<canornot><please><you>)<單字動詞1>好<單字動詞2>滿[<canornot>][<endyuqi>];
+//*C:我藍瘦香菇
+//*A:我也覺得藍瘦香菇
+<我藍瘦香菇>:[<manpronoun>][<feel>][<very>]<藍瘦香菇>[<endyuqi>];
 //*C:寶傑，你怎麼看
 //*A:我覺得超過一百分
 //*A:我認為87分不能再高了
@@ -110,6 +112,22 @@
 //*A:你今天業力引爆了嗎？
 //*A:<stuff>就4狂！
 <thanksseafood>:(感(恩|激|謝)|謝謝)<stuff>[！](讚(嘆|歎|美)|盛讚)<stuff>[！];
+//*C:我森氣企鵝了
+//*C:我整個無言薯條
+//*C:我生氣企鵝了
+//*C:我傻眼貓咪耶
+//*C:我整個無言薯條啊
+//*C:我真的很傻眼貓咪
+//*C:我整個無言薯條啊啊啊啊
+//*C:我傻眼貓咪欸
+//*C:我真的很生氣企鵝耶
+//*C:我真的是超級傻眼貓咪
+//*C:傻眼貓咪
+//*C:生氣企鵝
+//*A:你<stuff>我還黑人問號壘！
+//*A:<stuff><description>嗎？
+//*A:我傻眼貓咪憂鬱鹹酥雞藍色蜘蛛網玫瑰瞳鈴眼壘！
+<shayancat>:[<me>][<reallyornot>|(整個|也)[是]][<feel>][<very>]<facepalm{stuff=$}><endyuqi>*;
 //*C:哈密瓜有什麼味道
 //*A:有一種<haweioneword>味，有的人喜歡有的人不喜歡
 //*A:難道是嘉明的味道
@@ -133,9 +151,9 @@
 //*A:你的夢想，算歐拉蜜一份！
 //*A:世界歡迎光臨，熱情準備就緒！歐拉蜜已經熱血爆棚啦！
 <台灣我的主場>:<taiwanhome>[<biaodian>][[就]是]我[們]的主場;
-//*C:123你好
-//*C:一二三妳好
 //*C:一二三你好
+//*C:一二三妳好
+//*C:123你好
 //*A:雷侯雷侯阿
 <測試用的你好>:(123|一二三)(你|妳)好;
 //*C:娘子快跟牛魔王出來看上帝
