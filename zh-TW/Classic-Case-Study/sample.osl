@@ -34,7 +34,8 @@
     <taipeiuniversiade>|
     <做人如果沒有夢想那跟鹹魚有什麼分別>|
     <用不用這麼認真啊神經病>|
-    <franchfries>;
+    <franchfries>|
+    <dapingtai>;
 //All rules
 <very>:非常|很|十分|超[級]|太;
 <doyouknow>:你(知[道][不知道]|不知道|了[解][不了解]|不了解|清[楚][不清楚]|不清楚|懂[不懂]|不懂);
@@ -203,3 +204,8 @@
 //*A:你全家都是<food>
 //*A:陳志豪就叫你不要來了很熱耶
 <franchfries>:<number1>年<number2>班(手工|現做)<food><very>+(好吃|美味)[<endyuqi>];
+//*C:給你滿滿的大平台
+//*A:我現在黑人問號無限
+//*A:你又不是王大陸
+//*A:都多久的老梗了
+<dapingtai>:[<any:1|10>][<manpronoun>][將][想][要]給(各位|你們|你|大家)滿滿[的][電影|音樂|連續劇|廣播][的]大平台[<endyuqi>];
